@@ -53,3 +53,15 @@ KEY MODEL_ID="meta-llama/Llama-2-7b-chat-hf"
 Once you click `Continue`, you will be able to review the details added for the model. If you would like to make any changes, you can go back and make the changes.
 
 Once you have reviewed everything, click Deploy to start the model import process.
+
+Sample Inference 
+
+```
+{
+  "inputs": "What is Deep Learning?",
+  "parameters": {
+    "max_new_tokens": 200
+  }
+}
+```
+
