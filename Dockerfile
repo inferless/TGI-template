@@ -3,9 +3,6 @@ FROM ghcr.io/huggingface/text-generation-inference:latest
 
 WORKDIR /app
 
-# Copy the application code and start the script
-COPY app.py /app/app.py
-
 COPY start.sh /app/start.sh
 RUN chmod +x /app/start.sh
 
