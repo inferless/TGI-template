@@ -1,4 +1,4 @@
-# Importing amy model with TGI on Inferless Using and Dockerfile
+# Importing any model with TGI on Inferless Using and Dockerfile
 
 This guide demonstrates how to import a Llama-2 model to the Inferless platform. We'll use Text Generation Inference (TGI) and import through Dockerfile for this process.
 
